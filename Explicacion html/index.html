@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Primera práctica</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.youtube.com/watch?v=cBQumoWA2TA">Video suiza</a>
+        <h1>Esta es la cabecera</h1>
+    </header>
+    <main>
+        <section>
+            este es el section
+
+            <p class="parr1">
+                Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                <br />
+                Perspiciatis nesciunt quam nihil in
+                tempore dolorum adipisci
+                <br />
+                mollitia architecto eaque unde quis
+                minima sed laudantium itaque delectus
+                temporibus aliquid, quisquam quaerat!
+            </p>
+            <hr />
+            <p class="parr2">
+                Parrafo 2  
+                <br> 
+                Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Fugit labore molestias
+                praesentium non velit laboriosam unde
+                beatae numquam debitis sapiente facilis
+                quisquam provident iusto fuga dolore,
+                vel quo rem. Ad!
+            </p>
+        </section>
+        <article>
+            Este es el article
+            <p class="parr3">
+                Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Sit quaerat laudantium
+                beatae quas corrupti fugiat totam ipsum
+                soluta vel et? Numquam doloribus odit
+                non veritatis dolor iste libero vero
+                consectetur.
+            </p>
+        </article>
+        <figure>
+            <img src="/9377665_paisaje.jpg" alt="" width="100%" />
+        </figure>
+        <iframe width="70%" height="415" src="https://www.youtube.com/embed/wOmmzKRK24Q" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Tipo Dato A</th>
+                    <th>Tipo Dato B</th>
+                    <th>Tipo Dato C</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>9</td>
+                </tr>
+            </tfoot>
+            <caption>
+                Datos de texto explicativos
+            </caption>
+        </table>
+        <form action="">
+            <ul>
+                <li>
+                    <label for="">Nombre</label>
+                    <input type="text" />
+                </li>
+                <li>
+                    <label for="">Correo</label>
+                    <input type="email" />
+                </li>
+                <li>
+                    <label for="">Mensaje</label>
+                    <textarea name="mensaje_usuario" id="msg" cols="30" rows="5"></textarea>
+                </li>
+            </ul>
+            <button>Enviar</button>
+        </form>
+        <hr />
+        <form action="">
+            <label for="">Nombre</label>
+            <br />
+            <input type="text" />
+            <select name="" id="">
+                <option value="">C.C</option>
+                <option value="">R.C</option>
+                <option value="">T.I</option>
+            </select>
+            <br />
+            <label for="">Correo</label>
+            <br />
+            <input type="email" />
+            <br />
+            <label for="">Mensaje</label>
+            <br />
+            <textarea name="mensaje_usuario" id="msg" cols="30" rows="5"></textarea>
+            <br />
+            <button>Enviar</button>
+        </form>
+        <hr />
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                <div id="emailHelp" class="form-text">
+                    No compartir el correo electrónico con
+                    nadie.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Seleccione</label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                Enviar
+            </button>
+        </form>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/9377665_paisaje.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="paisaje.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="descarga.jpg" class="d-block w-100" alt="..." />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <p class="parr4">
+        Parrafo 4 
+        <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab porro qui eveniet culpa eius, velit assumenda neque voluptates debitis, obcaecati quasi? Eligendi sint inventore provident error voluptate tempora dolorem animi.</p>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li>Laura</li>
+                <li>Lina</li>
+                <li>Juan</li>
+                <li>Jose</li>
+                <li>Naty</li>
+            </ul>
+        </div>
+        <div>
+            <ol>
+                <li>Laura</li>
+                <li>Lina</li>
+                <li>Juan</li>
+                <li>Jose</li>
+                <li>Naty</li>
+            </ol>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: lightgrey;
+
+}
+/* color genera para cada etiquieta p */
+p{
+    color: brown;
+}
+/* color especifico para cada etiqueta por medio de la clase */
+/* en CSS para yo identificar que es una clase le pongo un puntico
+y para identificar que es un id le pongo un # (numeral) */
+
+.parr2{
+    color: blue;
+}
+.parr4{
+    color: fuchsia;
+}
+/*
+#table{
+    border: solid blue;
+} */
